@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="work.css">
+    <title>BharatPe</title>
+
+</head>
+<body>
+   <style>
+
+
+
+
+
+
+    .left{
+    width: 13%;
+    height: 20px;
+}
+
+
+.left img{
+    width: 230px;
+    
+}
+.mid{
+
+margin: 2px auto;
+padding: 13px 17px;
+text-align: center;
+display: block;
+color: white;
+}
+.right{
+     position: absolute;
+     top: 30px;
+     right: 34px;
+     display: inline-block;
+    font-size: 20px;
+
+
+  
+  color: #f2f2f2;
+  
+  display: flex;
+
+}
+
+
+
+.navbar{
+    display: inline-block;
+    position: relative;
+}
+
+
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+.navbar li a{
+    color: black;
+    text-decoration: none;
+    padding:14px 23px;
+}
+
+.navbar a:hover{
+    background-color: rgb(205, 239, 250);
+    color: rgb(7, 186, 251);
+}
+    
+
+.navbar a:active{
+    background-color: #04AA6D;
+  color: white;
+}
+
+
+.container img{
+    width: 330px;
+    border-radius: 15px;
+    position:absolute;
+    right:200px;
+    display:inline-flex;
+    
+}
+
+.container h1{
+    height: 270px;
+    width: 180px;
+    font-size: 40px;
+    left: 400px;
+    position: relative;
+    
+    
+}
+.container p{
+    width: 37%;
+    left:360px;
+    padding: 40px 40px;
+    font-size: 120%;
+    height: 100%;
+    
+    
+    position: relative;
+}
+
+
+.cant img{
+    width: 380px;
+    border-radius: 15px;
+    position:relative;
+    height: 280px;
+    left:200px;
+    display:inline-flex;
+    padding: 30px;
+}
+.cant h1{
+    right: 290px;
+    position: absolute;
+    bottom: 25%;
+    width: 30%;
+    font-size: 270%;
+    top: 68%;
+}
+.cant p{
+   
+    right: 300px;
+    position:absolute;
+    bottom: 1%;
+    width: 30%;
+    font-size: 130%;
+
+}
+
+
+.entire h2{
+    position: absolute;
+    width: 85%;
+    font-size: 220%;
+    height: 50%;
+    padding-left: 555px;
+    top: 130%;
+    align-tracks: center;
+    
+    background-color: black;
+    color: white;
+    
+}
+figure{
+    width: 300px;
+    height: 300px;
+    border:4px solid gray;
+
+}
+
+.content img{
+    width: 30%;
+    position: absolute;
+    left: 250px;
+    top: 2700px;
+    
+}
+.content h1{
+    position: absolute;
+    right: 370px;
+    font-size: 60px;
+    top: 2700px;
+    color: black;
+
+
+}
+.content p{
+    position: absolute;
+    right: 370px;
+    font-size: 30px;
+    top: 2800px;
+    color: black;
+
+
+}
+.content1 img{
+    position: absolute;
+    
+    width: 18%;
+    top: 2900px;
+    right: 380px;
+}
+figure{
+    width: 300px;
+    height: 150px;
+    border:4px solid black;
+    color: white;
+    left: 100px;
+    top: 300px;
+    position: relative;
+
+}
+.figure h2{
+    font-size: 22px;
+}
+.merchant{
+    width: 300px;
+    height: 150px;
+    border:4px solid black;
+    color: white;
+    left: 500px;
+    top: 125px;
+    position: relative;
+    align-items: center;
+}
+.merchant h2{
+    font-size: 25px;
+}
+.cities{
+    width: 300px;
+    height: 150px;
+    border:4px solid black;
+    color: white;
+    left: 830px;
+    top: -34px;
+    position: relative;
+    align-items: center;
+
+}
+
+.business{
+    width: 300px;
+    height: 150px;
+    border:4px solid black;
+    color: white;
+    left: 1200px;
+    top: -190px;
+    position: relative;
+    align-items: center;
+}
+
+
+
+
+
+.banking{
+    margin: 2px auto;
+padding: 13px 17px;
+text-align: center;
+display: block;
+color:black;
+font-size: 30px;
+}
+
+.nav{
+    
+        display: inline-block;
+        position: relative;
+    
+}
+
+
+.nav li{
+    display: inline-block;
+    font-size: 20px;
+}
+
+
+
+.nav li a{
+    color: black;
+    text-decoration: none;
+    padding:14px 23px;
+
+    font-size: 30px;
+}
+.nav :hover{
+    background-color: blue;
+    color:white;
+}
+
+
+.pic{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    flex-direction: row;
+    top: 1700px;
+    width: 1400px;
+    height: 100px;
+}
+figure{
+    border: 0px;
+    color: white;
+}
+
+figure img{
+    width: 90%;
+    justify-content: center;
+    display:flex;
+    
+}
+
+figure:hover{
+    transform: scale(1.1);
+    transition-duration:calc(2.1) ;
+}
+
+figure h1{
+    color: black;
+}
+
+figure p{
+    color: black;
+}
+   </style>
+
+
+
+<nav>
+   <header class="header">
+    <div class="left">
+        <img src="data:image/png;base64,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" alt="">
+    </div>
+
+
+
+
+    <div class="mid">
+        <ul class="navbar">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="#" class="active">AboutUs</a></li>
+        <li><a href="#" class="active">Products</a></li>
+        <li><a href="#" class="active">Resources</a></li>
+        <li><a href="#" class="active">Press</a></li>
+        <li><a href="#" class="active">Careers</a></li>
+        <li><a href="#" class="active">Contact Us</a></li>
+         
+    </ul>
+
+
+
+
+
+    </div>
+
+
+
+    <div class="right">
+        <li><a href="#">LOGIN</a></li>
+
+
+
+    </div>
+   </header>
+
+</nav>
+
+
+
+   <div class="container">
+    <img src="https://bp-wp-website-prod.s3.ap-south-1.amazonaws.com/wp-content/uploads/2023/09/main-banner-3.jpg" alt="user">
+
+    
+
+    <h1>Transform your  <span style="color:blue"> busines into Success story </span></h1>
+    <p>We are here to support your dreams and needs of your 
+        growing business through our range of fintech solution </p>
+    
+   </div>
+
+
+<div class="cant">
+
+    <img src="https://storage.googleapis.com/5paisa-prod-storage/files/2022-08/BharatPe.jpg">
+    <h1>Grow your business <span style="color:blue"> with BharatPe</span> </h1>
+    <p> One-step fintech destination trusted by 13+million people in India to power up their business</p>
+</div>
+
+<div class="entire">
+   
+        <h2>Numbers tells our story</h2>
+
+
+</div>
+
+
+
+
+<figure>
+<figcaption>
+    <h2>Rs 1700+ Billion</h2>
+    <p>TVP in payments</p>
+</figcaption>
+</figure>
+
+<div class="merchant">
+        <h2> 13+ Million</h2>
+        <p>Merchant Partners</p>
+    </div>
+
+<div class="cities">
+        <h2> 450+ Cities </h2>
+        <p>Presence across India</p>
+    </div>
+ 
+<div class="business">
+        <h2> 12400+ Crores </h2>
+        <p>Business Loan Facilitated</p>
+    </div>    
+
+    
+    <div class="banking">
+
+        <h1>Merchant Offering</h1>
+        <ul class="nav">
+        <li><a href="#" class="active">Payments</a></li>
+        <li><a href="#" class="active">Banking</a></li>
+        <li><a href="#" class="active">Lending</a></li>
+
+    </ul>
+    </div>
+
+
+<div class="pic">
+        <figure>
+            <img src="https://pbs.twimg.com/media/EECtk1NUEAAjAfK.jpg" alt="">
+
+            <figcaption>
+                <h1>BharatPe QR</h1>
+                <p>Accept payments anytime, anywhere from multiple payment apps for free</p>
+            </figcaption>
+        </figure>
+
+
+
+
+        <figure>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhbyDqDS5NxD0_WqNdZt-vNUA2st7pMHufBA&usqp=CAU" alt="">
+
+            <figcaption>
+                <h1>BharatPe Swipe</h1>
+                <p>Accept fast payments from multiple debit and credit cards</p>
+            </figcaption>
+        </figure>
+
+
+
+        <figure>
+            <img src="https://content3.jdmagicbox.com/comp/vijayawada/c2/0866px866.x866.220320204324.x6c2/catalogue/bharatpe-office-vijayawada-siddhartha-nagar-vijayawada-corporate-companies-6sddznk2df.jpg" alt="">
+
+            <figcaption>
+                <h1>BharatPe Speaker</h1>
+                <p>Real-time voice alerts for payments received</p>
+            </figcaption>
+        </figure>
+
+</div>
+      
+         
+
+
+
+
+<div class="content">
+    <img src="https://www.code-brew.com/wp-content/uploads/2019/09/image-6@2x.png" alt="">
+    
+
+    <h1>Get the App</h1>
+    <p>Download the App from</p>
+
+
+</div>
+<div class="content1">
+<img src="https://static.vecteezy.com/system/resources/previews/016/290/534/original/google-play-apple-store-logo-icon-button-free-vector.jpg">
+
+</div>
+
+
+
+
+</body>
+</html>
